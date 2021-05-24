@@ -5,8 +5,7 @@ function App() {
   return (
     <div className="app-container">
       <div className="one"></div>
-      <div className="two"></div>
-      <div className="three"></div>
+      {/* <div className="two"></div> */}
     </div>
   );
 }
