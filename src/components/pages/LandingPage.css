@@ -1,0 +1,16 @@
+.landing-page {
+  position: relative;
+  z-index: -2;
+  width: 100%;
+  background-color: var(--main-color);
+  display: flex;
+  flex-direction: column;
+  padding-top: 5rem;
+}
+
+.about {
+  font-size: xx-large;
+}
+.art-container {
+  width: 100%;
+}

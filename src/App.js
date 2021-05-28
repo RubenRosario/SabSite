@@ -1,12 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-
+import MainHeader from './components/Navigation/MainHeader';
+import LandingPage from './components/pages/LandingPage';
 function App() {
   return (
-    <div className="app-container">
-      <div className="one"></div>
-      {/* <div className="two"></div> */}
-    </div>
+    <>
+      <div className="page-frame"></div>
+      <div className="app-container">
+        <MainHeader />
+        <LandingPage />
+      </div>
+    </>
   );
 }
 
