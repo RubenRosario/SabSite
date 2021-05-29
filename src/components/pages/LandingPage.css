@@ -10,7 +10,50 @@
 
 .about {
   font-size: xx-large;
+  background-color: var(--main-color);
 }
 .art-container {
   width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  z-index: -1;
+}
+
+.renato {
+  z-index: -1;
+}
+.danny {
+  -webkit-filter: drop-shadow(5px -10px 20px var(--main-color));
+  filter: drop-shadow(5px -10px 20px var(--main-color));
+}
+.sab-lettering {
+  font-size: 100px;
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+}
+@media (min-width: 600px) {
+  .danny {
+    position: relative;
+    left: 50px;
+  }
+
+  .renato {
+    position: relative;
+    left: -50px;
+  }
+}
+
+@media (min-width: 300px) {
+  .danny {
+    position: relative;
+    left: 40px;
+  }
+
+  .renato {
+    position: relative;
+    left: -40px;
+  }
 }
