@@ -1,5 +1,17 @@
 import React from "react"
+import Layout from "../components/layout"
+import { StaticImage } from "gatsby-plugin-image"
 
-export default function Home() {
-  return <div>Hello world!</div>
+const Home = () => {
+  return (
+    <Layout>
+      <div>
+        Home page
+        <StaticImage src="../assets/renato_large.png" />
+        <StaticImage src="../assets/danny_large.png" />
+      </div>
+    </Layout>
+  )
 }
+
+export default Home
